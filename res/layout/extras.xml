@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/extras_scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:id="@+id/extras_TableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dip" >
+
+            <TableRow
+                android:id="@+id/extras_TableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dip" >
+
+                <TextView
+                    android:id="@+id/extras_textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Extras"
+                    android:textSize="36dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/extras_TableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="40dip" >
+
+                <Button
+                    android:id="@+id/extras_button_links"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#6aa84f"
+                    android:height="80dip"
+                    android:onClick="click"
+                    android:text="Links interessantes"
+                    android:width="200dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/extras_TableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dip" >
+
+                <Button
+                    android:id="@+id/extras_button_sobre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#6aa84f"
+                    android:height="80dip"
+                    android:onClick="click"
+                    android:text="Sobre a aplicação"
+                    android:width="200dip" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

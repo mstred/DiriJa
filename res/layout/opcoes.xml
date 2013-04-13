@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/opcoes_scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:id="@+id/opcoesTableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dip" >
+
+            <TableRow
+                android:id="@+id/opcoesTableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dip" >
+
+                <TextView
+                    android:id="@+id/opcoes_textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Opções"
+                    android:textSize="36dip" />
+            </TableRow>
+            <!--
+            <TableRow
+                android:id="@+id/opcoesTableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dip" >
+
+                <Button
+                    android:id="@+id/opcoes_button_baixar_provas"
+                    android:layout_width="200dip"
+                    android:layout_height="70dip"
+                    android:onClick="click"
+                    android:background="#f6b26b"
+                    android:text="Baixar provas" />
+            </TableRow>
+            -->
+
+            <TableRow
+                android:id="@+id/opcoesTableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="40dip" >
+
+                <Button
+                    android:id="@+id/opcoes_button_historico"
+                    android:layout_width="200dip"
+                    android:layout_height="80dip"
+                    android:background="#f6b26b"
+                    android:onClick="click"
+                    android:text="Histórico de Pontuações" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/opcoesTableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dip" >
+
+                <Button
+                    android:id="@+id/opcoes_button_mudar_tema"
+                    android:layout_width="200dip"
+                    android:layout_height="80dip"
+                    android:background="#f6b26b"
+                    android:onClick="click"
+                    android:text="Mudar tema" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

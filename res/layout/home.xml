@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <ScrollView
+        android:id="@+id/scrollHome"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dip"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="160dip"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/dirija" >
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/labelDirija"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center|center_vertical"
+                            android:text="DiriJa"
+                            android:paddingRight="10dip"
+                            android:textSize="32dip" >
+
+                        </TextView>
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/prova_button"
+                            android:layout_width="160dip"
+                            android:layout_height="140dip"
+                            android:text="Prova"
+                            android:background="#2979e7"
+                            android:textSize="20dip"
+                            android:onClick="click"
+                            android:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/conteudo_button"
+                            android:layout_width="160dip"
+                            android:layout_height="140dip"
+                            android:text="Conteúdo"
+                            android:background="#2979e7"
+                            android:textSize="20dip"
+                            android:onClick="click"
+                            android:scaleType="fitXY" />
+                            <!-- android:background="@drawable/home_conteudo_button" -->
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/extras_button"
+                            android:layout_width="160dip"
+                            android:layout_height="140dip"
+                            android:text="Extras"
+                            android:background="#2979e7"
+                            android:textSize="20dip"
+                            android:onClick="click"
+                            android:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/opcoes_button"
+                            android:layout_width="160dip"
+                            android:layout_height="140dip"
+                            android:text="Opções"
+                            android:background="#2979e7"
+                            android:textSize="20dip"
+                            android:onClick="click"
+                            android:scaleType="fitXY" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
