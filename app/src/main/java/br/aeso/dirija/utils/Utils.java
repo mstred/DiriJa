@@ -16,7 +16,7 @@ public class Utils {
 	
 	public static int CONTENT_VIEW;
 	
-	public static int tema = android.R.style.Theme;
+	public static int tema = android.R.style.Theme_Material;
 	
 	public static void alert(String msg, Context context) {
     	Toast.makeText(context, msg, Toast.LENGTH_LONG).show();
